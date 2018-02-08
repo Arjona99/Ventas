@@ -14,6 +14,22 @@
 		D1161BB81FCFAB7900FA9353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1161BB61FCFAB7900FA9353 /* LaunchScreen.storyboard */; };
 		D1161BC31FCFAB7900FA9353 /* VentasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1161BC21FCFAB7900FA9353 /* VentasTests.swift */; };
 		D1161BCE1FCFAB7900FA9353 /* VentasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1161BCD1FCFAB7900FA9353 /* VentasUITests.swift */; };
+		D1161BDC1FCFAB7900FA9353 /* amazon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1161BDB1FCFAB7900FA9353 /* amazon.png */; };
+		D1597AC71FCFD87700204783 /* ViewController_Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1597AC61FCFD87700204783 /* ViewController_Registro.swift */; };
+		D15D674A1FDA203800926136 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15D67481FDA203700926136 /* Realm.framework */; };
+		D15D674B1FDA203800926136 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15D67491FDA203800926136 /* RealmSwift.framework */; };
+		D15D674C1FDA205D00926136 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15D67481FDA203700926136 /* Realm.framework */; };
+		D15D674D1FDA205D00926136 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15D67481FDA203700926136 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D15D674E1FDA205D00926136 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15D67491FDA203800926136 /* RealmSwift.framework */; };
+		D15D674F1FDA205D00926136 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D15D67491FDA203800926136 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D15D67611FDA298C00926136 /* allRealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D67601FDA298C00926136 /* allRealmObjects.swift */; };
+		D15D67631FDA56FF00926136 /* ViewController_InicioSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D67621FDA56FF00926136 /* ViewController_InicioSesion.swift */; };
+		D1756B482013D1F3007F6B4B /* ViewController_RegistroAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1756B472013D1F3007F6B4B /* ViewController_RegistroAdmin.swift */; };
+		D183692B1FD3A22C0096409B /* carrito250_200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D183692A1FD3A22B0096409B /* carrito250_200.jpg */; };
+		D1A9D3072009D66E00C497C0 /* ViewController_AgregarProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9D3062009D66E00C497C0 /* ViewController_AgregarProducto.swift */; };
+		D1C47D5C1FD1161B00AC9A63 /* ViewController_AdminLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C47D5B1FD1161B00AC9A63 /* ViewController_AdminLogIn.swift */; };
+		D1EE16E5200964B30065B758 /* TableViewCell_Productos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE16E4200964B30065B758 /* TableViewCell_Productos.swift */; };
+		D1EE16E7200968B80065B758 /* ViewController_Productos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE16E6200968B80065B758 /* ViewController_Productos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +49,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D15D67501FDA205D00926136 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D15D674F1FDA205D00926136 /* RealmSwift.framework in Embed Frameworks */,
+				D15D674D1FDA205D00926136 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D1161BAA1FCFAB7900FA9353 /* Ventas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ventas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1161BAD1FCFAB7900FA9353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +78,18 @@
 		D1161BC91FCFAB7900FA9353 /* VentasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VentasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1161BCD1FCFAB7900FA9353 /* VentasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentasUITests.swift; sourceTree = "<group>"; };
 		D1161BCF1FCFAB7900FA9353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1161BDB1FCFAB7900FA9353 /* amazon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amazon.png; path = ../../../Downloads/amazon.png; sourceTree = "<group>"; };
+		D1597AC61FCFD87700204783 /* ViewController_Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Registro.swift; sourceTree = "<group>"; };
+		D15D67481FDA203700926136 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D15D67491FDA203800926136 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		D15D67601FDA298C00926136 /* allRealmObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allRealmObjects.swift; sourceTree = "<group>"; };
+		D15D67621FDA56FF00926136 /* ViewController_InicioSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_InicioSesion.swift; sourceTree = "<group>"; };
+		D1756B472013D1F3007F6B4B /* ViewController_RegistroAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_RegistroAdmin.swift; sourceTree = "<group>"; };
+		D183692A1FD3A22B0096409B /* carrito250_200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carrito250_200.jpg; path = ../../../Downloads/carrito250_200.jpg; sourceTree = "<group>"; };
+		D1A9D3062009D66E00C497C0 /* ViewController_AgregarProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_AgregarProducto.swift; sourceTree = "<group>"; };
+		D1C47D5B1FD1161B00AC9A63 /* ViewController_AdminLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_AdminLogIn.swift; sourceTree = "<group>"; };
+		D1EE16E4200964B30065B758 /* TableViewCell_Productos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_Productos.swift; sourceTree = "<group>"; };
+		D1EE16E6200968B80065B758 /* ViewController_Productos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Productos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15D674C1FDA205D00926136 /* Realm.framework in Frameworks */,
+				D15D674B1FDA203800926136 /* RealmSwift.framework in Frameworks */,
+				D15D674E1FDA205D00926136 /* RealmSwift.framework in Frameworks */,
+				D15D674A1FDA203800926136 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +144,24 @@
 		D1161BAC1FCFAB7900FA9353 /* Ventas */ = {
 			isa = PBXGroup;
 			children = (
+				D15D67601FDA298C00926136 /* allRealmObjects.swift */,
 				D1161BAD1FCFAB7900FA9353 /* AppDelegate.swift */,
 				D1161BAF1FCFAB7900FA9353 /* ViewController.swift */,
+				D15D67621FDA56FF00926136 /* ViewController_InicioSesion.swift */,
+				D1597AC61FCFD87700204783 /* ViewController_Registro.swift */,
+				D1EE16E6200968B80065B758 /* ViewController_Productos.swift */,
+				D1EE16E4200964B30065B758 /* TableViewCell_Productos.swift */,
+				D1A9D3062009D66E00C497C0 /* ViewController_AgregarProducto.swift */,
+				D1756B472013D1F3007F6B4B /* ViewController_RegistroAdmin.swift */,
+				D1C47D5B1FD1161B00AC9A63 /* ViewController_AdminLogIn.swift */,
 				D1161BB11FCFAB7900FA9353 /* Main.storyboard */,
 				D1161BB41FCFAB7900FA9353 /* Assets.xcassets */,
 				D1161BB61FCFAB7900FA9353 /* LaunchScreen.storyboard */,
 				D1161BB91FCFAB7900FA9353 /* Info.plist */,
+				D183692A1FD3A22B0096409B /* carrito250_200.jpg */,
+				D1161BDB1FCFAB7900FA9353 /* amazon.png */,
+				D15D67481FDA203700926136 /* Realm.framework */,
+				D15D67491FDA203800926136 /* RealmSwift.framework */,
 			);
 			path = Ventas;
 			sourceTree = "<group>";
@@ -135,6 +194,8 @@
 				D1161BA61FCFAB7900FA9353 /* Sources */,
 				D1161BA71FCFAB7900FA9353 /* Frameworks */,
 				D1161BA81FCFAB7900FA9353 /* Resources */,
+				D15D67501FDA205D00926136 /* Embed Frameworks */,
+				D15D67511FDA206B00926136 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,8 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1161BB81FCFAB7900FA9353 /* LaunchScreen.storyboard in Resources */,
+				D183692B1FD3A22C0096409B /* carrito250_200.jpg in Resources */,
 				D1161BB51FCFAB7900FA9353 /* Assets.xcassets in Resources */,
 				D1161BB31FCFAB7900FA9353 /* Main.storyboard in Resources */,
+				D1161BDC1FCFAB7900FA9353 /* amazon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +317,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D15D67511FDA206B00926136 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1161BA61FCFAB7900FA9353 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D1161BB01FCFAB7900FA9353 /* ViewController.swift in Sources */,
+				D15D67611FDA298C00926136 /* allRealmObjects.swift in Sources */,
+				D1EE16E7200968B80065B758 /* ViewController_Productos.swift in Sources */,
+				D1756B482013D1F3007F6B4B /* ViewController_RegistroAdmin.swift in Sources */,
+				D1EE16E5200964B30065B758 /* TableViewCell_Productos.swift in Sources */,
+				D1597AC71FCFD87700204783 /* ViewController_Registro.swift in Sources */,
+				D1C47D5C1FD1161B00AC9A63 /* ViewController_AdminLogIn.swift in Sources */,
+				D15D67631FDA56FF00926136 /* ViewController_InicioSesion.swift in Sources */,
 				D1161BAE1FCFAB7900FA9353 /* AppDelegate.swift in Sources */,
+				D1A9D3072009D66E00C497C0 /* ViewController_AgregarProducto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +515,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JLVTZB2FPD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ventas",
+				);
 				INFOPLIST_FILE = Ventas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unam.mx.Ventas;
@@ -443,6 +534,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JLVTZB2FPD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ventas",
+				);
 				INFOPLIST_FILE = Ventas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unam.mx.Ventas;
